@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}About SnapAI – AI Reel Generator{% endblock %}
+
+{% block extra_css %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<section id="about" class="about-section">
+    <div class="container">
+        <h1>About SnapAI</h1>
+        <p>
+            SnapAI is a cutting-edge AI platform designed to simplify and enhance the way creators, 
+            businesses, and innovators work. Founded with the goal of making advanced AI tools accessible 
+            to everyone, we provide intuitive solutions that save time, boost productivity, and spark creativity.
+        </p>
+        <p>
+            Our mission is to empower individuals and organizations to harness the power of AI effortlessly. 
+            From content generation to image editing and automation workflows, SnapAI delivers smart, 
+            easy-to-use tools that help you focus on what truly matters—bringing your ideas to life.
+        </p>
+        <p>
+            Trusted by thousands of users worldwide, SnapAI combines innovation, reliability, and a passion 
+            for technology. Behind every feature is a dedicated team committed to providing the best AI experience possible, 
+            helping you work smarter, faster, and more creatively.
+        </p>
+        <p class="about-cta">
+            <strong>Join us on our journey to make AI simple, accessible, and inspiring.</strong>
+        </p>
+        
+    </div>
+</section>
+
+
+{% endblock %}
