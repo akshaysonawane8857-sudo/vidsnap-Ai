@@ -62,9 +62,6 @@ def gallery():
     print(reels)
     return render_template("gallery.html", reels=reels)
 
-
-import os
-
 if __name__ == '__main__':
     # Render port automatically assign karte, naitar default 5000 vapra
     port = int(os.environ.get("PORT", 5000))
